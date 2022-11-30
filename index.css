@@ -1,0 +1,163 @@
+body {
+  padding: 20px;
+  margin: 0;
+}
+.container,
+.container2,
+.container3 {
+  width: 30%;
+  margin: 40px 35% 0 35%;
+  padding: 14px 24px;
+  background: rgb(250, 251, 251);
+  font-family: "DM Sans", sans-serif;
+  display: grid;
+  justify-items: center;
+  border-radius: 8px;
+}
+.container2,
+.container3 {
+  display: none;
+}
+.container .h1,
+.container2 .h1,
+.container3 .h1 {
+  margin: 0;
+}
+.container .p,
+.container2 .p,
+.container3 .p {
+  margin: 4px 0 12px 0;
+}
+form {
+  width: 90%;
+}
+.container input,
+.container2 input,
+.container3 input {
+  height: 35px;
+  margin: 0 0 16px 0;
+  padding-left: 5px;
+  width: 98%;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0, 0.4);
+  background: rgb(110, 218, 233, 0.03);
+}
+.container input:focus,
+.container2 input:focus,
+.container3 input:focus {
+  outline: 2px solid rgb(110, 218, 233);
+  border: none;
+}
+.container .btn,
+.container2 .btn,
+.container3 .btn {
+  width: 100%;
+  text-align: center;
+  height: 42px;
+  color: white;
+  background: rgb(251, 150, 120);
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.container .btn:hover,
+.container2 .btn:hover,
+.container3 .btn:hover {
+  background: rgb(240, 131, 98);
+}
+.container .btn2,
+.container .btn3,
+.container2 .btn2,
+.container2 .btn3 {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  font-weight: 700;
+  padding: 22px 0;
+  column-gap: 5px;
+  background: white;
+  cursor: pointer;
+}
+.container .btn2:hover,
+.container .btn3:hover,
+.container2 .btn2:hover,
+.container2 .btn3:hover {
+  background: rgb(0, 0, 0, 0.01);
+}
+.google,
+.google2 {
+  color: red;
+  font-size: 25px;
+}
+.facebook,
+.facebook2 {
+  color: blue;
+  font-size: 25px;
+}
+.btnCon,
+.btnCon2 {
+  width: 90%;
+  margin: 16px 0 26px 0;
+  column-gap: 10px;
+}
+
+ion-icon {
+  color: rgb(110, 218, 233);
+  font-size: 25px;
+}
+
+@media all and (max-width: 2000px) {
+  .container,
+  .container2,
+  .container3 {
+    width: 40%;
+    margin: 40px 30% 0 30%;
+  }
+  form {
+    width: 90%;
+  }
+}
+@media all and (max-width: 1200px) {
+  .container,
+  .container2,
+  .container3 {
+    width: 60%;
+    margin: 40px 20% 0 20%;
+  }
+}
+@media all and (max-width: 750px) {
+  .container,
+  .container2,
+  .container3 {
+    width: 80%;
+    margin: 40px 10% 0 6%;
+  }
+}
+@media all and (max-width: 600px) {
+  .container,
+  .container2,
+  .container3 {
+    width: 90%;
+    margin: 40px 2% 0 0;
+  }
+  .h1 {
+    font-size: 24px;
+  }
+}
+@media all and (max-width: 450px) {
+  .container,
+  .container2,
+  .container3 {
+    width: 90%;
+    margin: 40px 7% 0 0;
+  }
+  .h1 {
+    font-size: 21px;
+  }
+}
